@@ -26,6 +26,7 @@ public class Employee {
        return jobTitle;
   }
 
+    // method to make a normal employee
    public void makeEmployee(){
        Scanner input = new Scanner(System.in);
 

@@ -13,6 +13,7 @@ public class ITemployee extends Employee {
         return OSSpecialty;
     }
 
+    //method from employee.java Overided to make an ITemployee with an extra input step
     @Override
     public void makeEmployee() {
         Scanner input = new Scanner(System.in);

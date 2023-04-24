@@ -4,9 +4,11 @@ public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
+        // getting user input for type of employee to make
         System.out.println("What Employee would you like to create? type [1] for a normal employee or type [2] for a IT employee: ");
         int type = input.nextInt();
 
+        //condional logic to determine the output of employee
         if(type == 1){
             Employee normalEmp = new Employee();
             normalEmp.makeEmployee();
